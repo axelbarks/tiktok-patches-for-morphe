@@ -14,6 +14,7 @@ public class SettingsStatus {
     public static boolean downloadEnabled = false;
     public static boolean simSpoofEnabled = false;
     public static boolean captchaPopupSuppressionEnabled = false;
+    public static boolean showAllShareTargetsEnabled = false;
     public static boolean promotionalBannersEnabled = false;
     public static boolean longPressSpeedLockEnabled = false;
     public static boolean disableLongPressQuickShareEnabled = false;
@@ -57,6 +58,10 @@ public class SettingsStatus {
 
     public static void enableCaptchaPopupSuppression() {
         captchaPopupSuppressionEnabled = true;
+    }
+
+    public static void enableShowAllShareTargets() {
+        showAllShareTargetsEnabled = true;
     }
 
     public static void enablePromotionalBanners() {

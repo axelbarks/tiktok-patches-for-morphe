@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme-header.png" alt="Metra TikTok Patches" width="290"/>
+  <img src="assets/readme-header.png" alt="Metra TikTok Patches - Axel's Fork" width="290"/>
 </p>
 
 <p align="center">
@@ -11,17 +11,19 @@
 
 <p align="center">
   <a href="https://ko-fi.com/P5P5YOUU7">
-    <img height="42" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Support my work on Ko-fi" />
+    <img height="42" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Support icysymmetra on Ko-fi" />
   </a>
 </p>
 
 <p align="center">
-  <sub><em>If you are using these patches and want to support the work, it helps me keep testing, improving, and keeping the patches maintained.</em></sub>
+  <sub><em>Donations go to <a href="https://github.com/icysymmetra">icysymmetra</a>, the author of the original Metra patches.</em></sub>
 </p>
 
-# Metra TikTok Patches
+# Metra TikTok Patches - Axel's Fork
 
 <br>
+
+> This is a fork of [icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe). It adds the `Show all friends in share panel` patch and publishes its own releases.
 
 **This repository is a Morphe patch source for TikTok.**
 
@@ -61,6 +63,7 @@ The goal is to keep the existing patch set usable while adding more TikTok-focus
 | `SIM spoof` | Replaces SIM country and operator values reported to TikTok and provides country presets. TikTok may still use IP address, account history, language, and other region signals. |
 | `Sanitize sharing links` | Removes tracking parameters from TikTok links before they are shared. |
 | `Settings` | Adds the Metra patches settings screen inside TikTok. |
+| `Show all friends in share panel` | Shows everyone you follow or who follows you in the share panel, including contacts TikTok hides based on follow or share status. |
 | `Show seekbar` | Shows TikTok's native video seekbar where it would normally be hidden. |
 | `Show seekbar thumbnail` | Shows TikTok's video preview thumbnail while dragging the seekbar. |
 | `Stop video looping` | Stops a completed video instead of automatically replaying it. |
@@ -72,11 +75,11 @@ The goal is to keep the existing patch set usable while adding more TikTok-focus
 
 Open this link on the Android device where Morphe is installed:
 
-[Add Metra TikTok Patches](https://morphe.software/add-source?github=icysymmetra/tiktok-patches-for-morphe)
+[Add Metra TikTok Patches - Axel's Fork](https://morphe.software/add-source?github=axelbarks/tiktok-patches-for-morphe)
 
 You can also copy this repository URL and paste it into Morphe's add source field:
 
-[https://github.com/icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)
+[https://github.com/axelbarks/tiktok-patches-for-morphe](https://github.com/axelbarks/tiktok-patches-for-morphe)
 
 <br>
 

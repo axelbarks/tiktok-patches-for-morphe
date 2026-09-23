@@ -22,7 +22,8 @@ public final class InterfacePreferenceCategory extends ConditionalPreferenceCate
     public boolean getSettingsStatus() {
         return SettingsStatus.captchaPopupSuppressionEnabled
                 || SettingsStatus.promotionalBannersEnabled
-                || SettingsStatus.alwaysShowPublishDateEnabled;
+                || SettingsStatus.alwaysShowPublishDateEnabled
+                || SettingsStatus.showAllShareTargetsEnabled;
     }
 
     @Override
@@ -49,6 +50,14 @@ public final class InterfacePreferenceCategory extends ConditionalPreferenceCate
                     "Always show publish date",
                     "Always show the publish date in video author information. Requires restart.",
                     Settings.ALWAYS_SHOW_PUBLISH_DATE
+            ));
+        }
+        if (SettingsStatus.showAllShareTargetsEnabled) {
+            addPreference(new TogglePreference(
+                    context,
+                    "Show all friends in share panel",
+                    "Show everyone you follow or who follows you in the share panel, including contacts hidden based on follow or share status. Requires restart.",
+                    Settings.SHOW_ALL_SHARE_TARGETS
             ));
         }
     }
