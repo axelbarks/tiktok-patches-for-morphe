@@ -1,3 +1,16 @@
+# [0.8.0](https://github.com/axelbarks/tiktok-patches-for-morphe/compare/v0.7.0...v0.8.0) (2026-09-23)
+
+
+### Features
+
+* **tiktok:** show all friends in share panel ([dd0a9e4](https://github.com/axelbarks/tiktok-patches-for-morphe/commit/dd0a9e4b43591cf9ef6fbbb3b34d192b63ec4092))
+
+
+
+
+
+## 0.8.0
+
 # [0.7.0](https://github.com/icysymmetra/tiktok-patches-for-morphe/compare/v0.6.1...v0.7.0) (2026-08-23)
 
 

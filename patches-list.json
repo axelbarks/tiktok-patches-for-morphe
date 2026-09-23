@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "appNames": {
     "com.zhiliaoapp.musically": "TikTok"
   },
@@ -701,6 +701,34 @@
     {
       "name": "Settings",
       "description": "Adds the Metra patches settings menu to TikTok. Supports TikTok 46.2.3.",
+      "use": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": {
+        "com.zhiliaoapp.musically": [
+          "46.2.3"
+        ]
+      },
+      "compatibility": [
+        {
+          "name": "TikTok",
+          "packageName": "com.zhiliaoapp.musically",
+          "description": null,
+          "appIconColor": 16657493,
+          "targets": [
+            {
+              "version": "46.2.3",
+              "experimental": false
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Show all friends in share panel",
+      "description": "Shows everyone you follow or who follows you in the share panel, including contacts TikTok hides based on follow or share status.",
       "use": true,
       "dependencies": [
         "BytecodePatch"
